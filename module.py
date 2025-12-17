@@ -182,17 +182,17 @@ def F():
 
     interact(main, initE=IntSlider(min=0, max=100000, step=1, value=initE, description='initE', style=style, \
                                layout=slider_layout),
-               initI=IntSlider(min=0, max=100000, step=10, value=initI, description='initI', style=style, \
+               initI=IntSlider(min=0, max=100000, step=1, value=initI, description='initI', style=style, \
                                layout=slider_layout),
-               initR=IntSlider(min=0, max=100000, step=10, value=initR, description='initR', style=style, \
+               initR=IntSlider(min=0, max=100000, step=1, value=initR, description='initR', style=style, \
                                layout=slider_layout),
-               initN=IntSlider(min=0, max=1380000000, step=1000, value=initN, description='initN', style=style, \
+               initN=IntSlider(min=0, max=1380000000, step=10, value=initN, description='initN', style=style, \
                                layout=slider_layout),
-               beta=FloatSlider(min=0, max=4, step=0.01, value=beta, description='Infection rate', style=style, \
+               beta=FloatSlider(min=0, max=4, step=0.0001, value=beta, description='Infection rate', style=style, \
                                 layout=slider_layout),
-               sigma=FloatSlider(min=0, max=4, step=0.01, value=sigma, description='Incubation rate', style=style, \
+               sigma=FloatSlider(min=0, max=4, step=0.0001, value=sigma, description='Incubation rate', style=style, \
                                  layout=slider_layout),
-               gamma=FloatSlider(min=0, max=4, step=0.01, value=gamma, description='Recovery rate', style=style, \
+               gamma=FloatSlider(min=0, max=4, step=0.0001, value=gamma, description='Recovery rate', style=style, \
                                  layout=slider_layout),
                days=IntSlider(min=0, max=600, step=7, value=days, description='Days', style=style, \
                               layout=slider_layout),
